@@ -1,0 +1,80 @@
+h1{
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+#opening-header{
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited{
+  color:darkgreen;
+}
+
+a:hover {
+  color:tomato;
+}
+
+a:active {
+  color:darkgoldenrod;
+}
+
+.win {
+  background-color: dodgerblue;
+}
+
+.win:hover {
+  background-color:black;
+  color:dodgerblue;
+}
+table {
+  border-collapse:collapse;
+  width: 400px;
+}
+th {
+  text-transform: uppercase;
+  text-decoration: wavy;
+  background-color: aquamarine;
+}
+td,th {
+  text-align: center;
+  border-style: groove;
+  border-width: 3px;
+}
+tr:hover{
+  background-color: darkseagreen;
+};
+
+img{
+  border-width: 8px;
+  border-style: groove;
+  border-color:aquamarine;
+}
+.opening-list{
+  list-style-type: square;
+}
+.opening-list:hover{
+  font-size:130%;
+}
+
+form{
+  border:10px;
+  border-style:ridge;
+  width: fit-content;
+}
+input{
+  background-color:lightgreen
+}
+input:hover{
+  background-color: brown;
+}
